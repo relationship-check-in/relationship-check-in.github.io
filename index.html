@@ -14,13 +14,22 @@
         margin-top: 60px;
       }
       #container {
-        width: 600px;
+        max-width: calc(min(600px, 100vw));
+        padding-right: 1rem;
+        padding-left: 1rem;
         margin-right: auto;
         margin-left: auto;
       }
 	    .tip {
         font-size: 14px;
 	    }
+      #question {
+        background: #3f3f3f;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        -webkit-box-shadow: -3px 7px 0px 2px #555555;
+        box-shadow: -3px 7px 0px 2px #555555;
+      }
     </style>
   </head>
   <body>
